@@ -1,0 +1,71 @@
+{
+  "unit": "Unique normalized problem within each corpus; not raw rows",
+  "items": 1673514,
+  "unique_training_texts": 1197691,
+  "benchmarks": 1949,
+  "original_candidate_pairs": 15960,
+  "corpus_specific_candidate_pairs": 21796,
+  "corpus_counts": {
+    "numinamath15_checkable": 580812,
+    "bigmath_rl": 241923,
+    "goosereason_math": 229179,
+    "nemotron_rl_omr": 112445,
+    "skywork_or1_math": 101899,
+    "deepmath_103k": 101205,
+    "openr1_math": 92829,
+    "polaris_53k": 52421,
+    "acereason_math": 47957,
+    "deepscaler": 39024,
+    "dolci_think_rl_math": 24000,
+    "dapo_math_17k": 16924,
+    "dolci_rlzero_math": 11962,
+    "ctrl_math_train": 7499,
+    "ctrl_gsm8k_train": 7473,
+    "nemotron_rl_math_v2": 5962
+  },
+  "benchmark_counts": {
+    "gsm8k": 1319,
+    "math500": 500,
+    "amc23": 40,
+    "aime24": 30,
+    "aime25": 30,
+    "aime26": 30
+  },
+  "policy_flag_counts": {
+    "exact": 82,
+    "lexical": 1021,
+    "adjudicated": 1317
+  },
+  "semantic_score_quantiles": {
+    "0.0": 0.0,
+    "0.25": 0.80078125,
+    "0.5": 0.8271484375,
+    "0.75": 0.8623046875,
+    "0.9": 0.90234375,
+    "0.99": 0.98681640625,
+    "1.0": 1.0009765625
+  },
+  "existing_final_rule": {
+    "jacc": 0.8,
+    "cov13": 0.8,
+    "cos_with_answer": 0.95
+  },
+  "lexical_rule": "t1_loose OR cov13 >= 0.5 OR jacc >= 0.7",
+  "adjudicated_rule": "Existing final policy: t1_loose OR judged SAME/SUBSUMES OR unjudged heuristic",
+  "excluded": "Synthetic zz_* corpus memberships only",
+  "limitations": [
+    "Candidate frame only; not exhaustive corpus-benchmark pairs.",
+    "Existing candidate cos=0 values are preserved, not newly computed.",
+    "Existing judge labels are policy inputs, not independent reference labels.",
+    "No topic labels or difficulty labels are invented.",
+    "Coverage denominators are corpus-specific unique problems, not raw rows."
+  ],
+  "input_hashes": {
+    "items/texts.parquet": "e991c2c22b8d94a180218d1af31b2a1784c150cef311008588b07801610c24c4",
+    "match/clusters.parquet": "ac3770ce3f60baadab55edd16cdce574402185ddb13059c3fcafbcfb66241a65",
+    "bench/benchmarks.parquet": "f12b48e1ccb1b8c01bdfb119018f31bab0a242c90700a67d5c6f1fcfbf51dae7",
+    "match/candidates.parquet": "042f23d97914965b47d6339622352d6bb5f9a59116e6825cac31f3aebc1d97e0",
+    "match/judge_queue.parquet": "3857811413a912ba5dcd964ca96dcffb0aa5f4cd4c9931237f8d121cb405b71a",
+    "match/judge_cache.jsonl": "869b641d35684c756a5d7c8b0a876bf8a39203ec9ba836e615f1c04f97e636b3"
+  }
+}

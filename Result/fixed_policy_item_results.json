@@ -1,0 +1,164 @@
+{
+  "reviewed_pairs": 83,
+  "reviewed_items": 80,
+  "reused_pairs": 9,
+  "new_adjudications": 3,
+  "selected_threshold": null,
+  "calibration_target_met": false,
+  "policies": [
+    {
+      "policy": "exact",
+      "reviewed_items": 80,
+      "observed_removed_items": 0,
+      "observed_false_removals": 0,
+      "observed_unresolved_removals": 0,
+      "estimated_removed_candidate_bearing_items": 0.0,
+      "estimated_false_removals_in_frame": 0.0,
+      "false_removal_fraction_lower": null,
+      "false_removal_fraction_upper": null,
+      "false_removal_fraction_lower_exploratory_95_interval": null,
+      "false_removal_fraction_upper_exploratory_95_interval": null
+    },
+    {
+      "policy": "existing_final",
+      "reviewed_items": 80,
+      "observed_removed_items": 6,
+      "observed_false_removals": 0,
+      "observed_unresolved_removals": 1,
+      "estimated_removed_candidate_bearing_items": 1351.4,
+      "estimated_false_removals_in_frame": 0.0,
+      "false_removal_fraction_lower": 0.0,
+      "false_removal_fraction_upper": 0.0674855705194613,
+      "false_removal_fraction_lower_exploratory_95_interval": [
+        0.0,
+        0.0
+      ],
+      "false_removal_fraction_upper_exploratory_95_interval": [
+        0.0,
+        0.3910806174957119
+      ]
+    },
+    {
+      "policy": "lexical",
+      "reviewed_items": 80,
+      "observed_removed_items": 4,
+      "observed_false_removals": 1,
+      "observed_unresolved_removals": 0,
+      "estimated_removed_candidate_bearing_items": 1238.8000000000002,
+      "estimated_false_removals_in_frame": 262.6,
+      "false_removal_fraction_lower": 0.2119793348401679,
+      "false_removal_fraction_upper": 0.2119793348401679,
+      "false_removal_fraction_lower_exploratory_95_interval": [
+        0.0,
+        0.9480415895171582
+      ],
+      "false_removal_fraction_upper_exploratory_95_interval": [
+        0.0,
+        0.9480415895171582
+      ]
+    },
+    {
+      "policy": "semantic_union_0.80",
+      "reviewed_items": 80,
+      "observed_removed_items": 59,
+      "observed_false_removals": 52,
+      "observed_unresolved_removals": 2,
+      "estimated_removed_candidate_bearing_items": 16538.2,
+      "estimated_false_removals_in_frame": 15085.0,
+      "false_removal_fraction_lower": 0.9121307034622873,
+      "false_removal_fraction_upper": 0.9238006554522257,
+      "false_removal_fraction_lower_exploratory_95_interval": [
+        0.8160574659152343,
+        0.9770768722475341
+      ],
+      "false_removal_fraction_upper_exploratory_95_interval": [
+        0.8304073003801347,
+        0.9848635335403536
+      ]
+    },
+    {
+      "policy": "semantic_union_0.85",
+      "reviewed_items": 80,
+      "observed_removed_items": 25,
+      "observed_false_removals": 19,
+      "observed_unresolved_removals": 1,
+      "estimated_removed_candidate_bearing_items": 5987.8,
+      "estimated_false_removals_in_frame": 4636.4,
+      "false_removal_fraction_lower": 0.7743077591101907,
+      "false_removal_fraction_upper": 0.7895387287484551,
+      "false_removal_fraction_lower_exploratory_95_interval": [
+        0.49817757420145176,
+        0.944829509079358
+      ],
+      "false_removal_fraction_upper_exploratory_95_interval": [
+        0.5142782911164231,
+        0.9555290423546473
+      ]
+    },
+    {
+      "policy": "semantic_union_0.90",
+      "reviewed_items": 80,
+      "observed_removed_items": 7,
+      "observed_false_removals": 3,
+      "observed_unresolved_removals": 1,
+      "estimated_removed_candidate_bearing_items": 1572.2000000000003,
+      "estimated_false_removals_in_frame": 504.80000000000007,
+      "false_removal_fraction_lower": 0.3210787431624475,
+      "false_removal_fraction_upper": 0.37908663019972016,
+      "false_removal_fraction_lower_exploratory_95_interval": [
+        0.0,
+        0.8470442341885528
+      ],
+      "false_removal_fraction_upper_exploratory_95_interval": [
+        0.07993565754879751,
+        0.9999999999999998
+      ]
+    },
+    {
+      "policy": "semantic_union_0.95",
+      "reviewed_items": 80,
+      "observed_removed_items": 5,
+      "observed_false_removals": 1,
+      "observed_unresolved_removals": 1,
+      "estimated_removed_candidate_bearing_items": 1330.0,
+      "estimated_false_removals_in_frame": 262.6,
+      "false_removal_fraction_lower": 0.19744360902255642,
+      "false_removal_fraction_upper": 0.266015037593985,
+      "false_removal_fraction_lower_exploratory_95_interval": [
+        0.0,
+        0.7422272470322216
+      ],
+      "false_removal_fraction_upper_exploratory_95_interval": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "policy": "semantic_union_0.98",
+      "reviewed_items": 80,
+      "observed_removed_items": 4,
+      "observed_false_removals": 1,
+      "observed_unresolved_removals": 0,
+      "estimated_removed_candidate_bearing_items": 1238.8000000000002,
+      "estimated_false_removals_in_frame": 262.6,
+      "false_removal_fraction_lower": 0.2119793348401679,
+      "false_removal_fraction_upper": 0.2119793348401679,
+      "false_removal_fraction_lower_exploratory_95_interval": [
+        0.0,
+        0.9500700770847932
+      ],
+      "false_removal_fraction_upper_exploratory_95_interval": [
+        0.0,
+        0.9500700770847932
+      ]
+    }
+  ],
+  "limitations": [
+    "False removal is verified only against existing candidate links.",
+    "Sampling covers candidate-bearing items, not all training items.",
+    "Five items per corpus gives limited precision.",
+    "Bootstrap intervals are exploratory and may miss rare events.",
+    "Uncertain labels produce bounds, not forced negative labels.",
+    "No downstream learning harm or benefit is established."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "calibration_target": 0.9,
+  "target_met": false,
+  "selected_threshold": null,
+  "agreement": {
+    "reviewer_agreement": 0.8939393939393939,
+    "disagreements": 63,
+    "uncertain": 29
+  },
+  "interpretation": "No predefined semantic-union threshold met the calibration precision target. Held-out comparisons are descriptive fixed-grid results, not a newly selected policy.",
+  "limitations": [
+    "Precision uses independently reviewed candidate pairs.",
+    "Recall is conditional on the candidate frame.",
+    "False pair flags are not unique falsely deleted training items.",
+    "Coverage counts policy decisions, not independently verified harm.",
+    "No confidence intervals are calculated in this step."
+  ]
+}
