@@ -1,0 +1,5 @@
+{
+  "sampled_items": 80,
+  "pairs_to_review": 83,
+  "scope": "All candidate edges for sampled items. Does not certify absence of exposure outside the candidate frame."
+}

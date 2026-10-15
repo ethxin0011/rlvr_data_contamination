@@ -1,0 +1,7 @@
+{
+  "study_manifest.json": "b561c788af26a1bef4679e24a00cbecf383db6ce6163804f022d8550bd0e3942",
+  "fixed_policy_metrics.csv": "4b64885718586cf776235ab64912c9b7cd5d965c65294785b2500db8848ce443",
+  "fixed_policy_coverage.csv": "3951bcc38837d9f022831a63cea50e5353ebf07fa2d323507d72c3f0b540e09f",
+  "fixed_policy_item_results.json": "0adee3d0e158f5b2cd8943721704590176bd1db8b38bf49297ad4a3ba2bab6e7",
+  "fixed_policy_item_decisions.csv": "da5e935b4197c752c7aee3f2906704fb618d713ea3d7a1bb30ae1e87d9aa1dfd"
+}

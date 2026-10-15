@@ -1,0 +1,10 @@
+[
+  "Recall and false-removal verification are candidate-frame conditional.",
+  "Shared problems retain separate corpus memberships.",
+  "Calibration and held-out corpora also use different benchmark questions; differences cannot be attributed solely to corpus shift.",
+  "Five sampled items per corpus limits item-level precision.",
+  "Zero-error bootstrap intervals are not evidence of zero population risk.",
+  "Semantic-union policies retain lexical positives at every threshold.",
+  "Coverage results describe source and length changes, not topic damage.",
+  "No downstream training benefit or harm is established."
+]
